@@ -6,7 +6,7 @@ sudo aptitude -y update
 # Add Debian squeeze package repository
 $WRAPPER begin
 $WRAPPER delete system package repository community
-$WRAPPER set system package repository squeeze url http://ftp.jp.debian.org/debian/
+$WRAPPER set system package repository squeeze url http://ftp.debian.org/debian/
 $WRAPPER set system package repository squeeze distribution squeeze
 $WRAPPER set system package repository squeeze components main
 $WRAPPER set system package repository pacifica url http://packages.vyatta.com/vyatta-dev/pacifica/unstable

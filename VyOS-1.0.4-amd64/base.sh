@@ -5,11 +5,11 @@ source /opt/vyatta/etc/functions/script-template
 delete system package repository community
 set system package repository community components 'main'
 set system package repository community distribution 'hydrogen'
-set system package repository community url 'http://mirror.vyos-users.jp/vyos'
-set system package repository squeeze url http://ftp.jp.debian.org/debian/
+set system package repository community url 'http://mirrors.mediactivity.net/vyos/vyos/'
+set system package repository squeeze url http://ftp.debian.org/debian/
 set system package repository squeeze distribution squeeze
 set system package repository squeeze components 'main contrib non-free'
-set system package repository squeeze-lts url http://ftp.jp.debian.org/debian/
+set system package repository squeeze-lts url http://ftp.debian.org/debian/
 set system package repository squeeze-lts distribution squeeze
 set system package repository squeeze-lts components 'main contrib non-free'
 commit

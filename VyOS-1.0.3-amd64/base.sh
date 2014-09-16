@@ -2,7 +2,7 @@
 source /opt/vyatta/etc/functions/script-template
 
 # Add Debian squeeze package repository
-set system package repository squeeze url http://ftp.jp.debian.org/debian/
+set system package repository squeeze url http://ftp.debian.org/debian/
 set system package repository squeeze distribution squeeze
 set system package repository squeeze components 'main contrib non-free'
 commit
